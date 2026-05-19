@@ -18,4 +18,4 @@ jobs:
         run: docker build -t flask-app ./app
 
       - name: Build Docker Compose services
-        run: docker-compose build
+        run: docker compose build
